@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Hello World
         setup-command: ''
-        command: javac HelloWorldTest/src/Main.java java HelloWorldTest/src/Main
+        command: " java HelloWorldTest/src/Main.java"
         input: ''
         expected-output: Hello World
         comparison-method: exact
