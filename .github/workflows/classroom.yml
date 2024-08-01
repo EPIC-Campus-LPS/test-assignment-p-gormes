@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: " java HelloWorldTest/src/Main.java"
         input: ''
-        expected-output: Hello World
+        expected-output: Hello world!
         comparison-method: exact
         timeout: 10
     - name: Autograding Reporter
